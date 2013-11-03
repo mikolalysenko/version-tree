@@ -1,0 +1,35 @@
+{
+  "name": "version-tree",
+  "version": "0.0.0",
+  "description": "Version tracking data structure",
+  "main": "versions.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "order-maintenance": "~0.0.1"
+  },
+  "devDependencies": {
+    "tape": "~2.1.0",
+    "tap": "~0.4.4"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/version-tree.git"
+  },
+  "keywords": [
+    "version",
+    "tree",
+    "history",
+    "subversion",
+    "child"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikolalysenko/version-tree/issues"
+  }
+}
