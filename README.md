@@ -1,6 +1,6 @@
 version-tree
 ============
-A data structure for maintaining a tree of versions.  This can be useful when implementing [fully persistent data structures](http://en.wikipedia.org/wiki/Persistent_data_structure) using the [DTSS method](http://www.cs.cmu.edu/~sleator/papers/Persistence.htm).  Works in both node.js and [browserify](http://browserify.org/).
+A data structure for maintaining a tree of versions.  This can be useful when implementing [fully persistent data structures](http://en.wikipedia.org/wiki/Persistent_data_structure) using the [DTSS method](http://www.cs.cmu.edu/~sleator/papers/Persistence.htm).  Works in both node.js and [browserify](http://browserify.org/).  All operations use amortized O(1) space and time.
 
 ## Example
 
