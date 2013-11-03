@@ -16,7 +16,6 @@ var b = root.fork()
 
 //Compare root to children
 console.log(root.subversion(a), root.subversion(b), a.subversion(root), b.subversion(a))
-
 // Prints out:
 //  true    true    false   false
 
@@ -24,7 +23,6 @@ console.log(root.subversion(a), root.subversion(b), a.subversion(root), b.subver
 //Make a child version of a
 var c = a.fork()
 console.log(root.subversion(c), a.subvsersion(c), b.subversion(c))
-
 //Prints out:
 //    true    true    false
 ```
