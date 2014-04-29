@@ -1,20 +1,19 @@
 {
   "name": "version-tree",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Version tracking data structure",
   "main": "versions.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "order-maintenance": "~0.0.1"
+    "order-maintenance": "^1.0.0"
   },
   "devDependencies": {
-    "tape": "~2.1.0",
-    "tap": "~0.4.4"
+    "tape": "^2.1.0"
   },
   "scripts": {
-    "test": "tap test/*.js"
+    "test": "tape test/*.js"
   },
   "repository": {
     "type": "git",
